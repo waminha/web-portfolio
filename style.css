@@ -1,0 +1,34 @@
+/* jumbotron */
+.jumbotron {
+  background-image: url(image/bg.jpg);
+  background-size: cover;
+}
+
+.jumbotron img {
+  width: 200px;
+  border: 5px solid black;
+}
+
+.jumbotron h1 {
+  font-family: "Pacifico", "cursive";
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron p {
+  color: white;
+}
+
+/* about */
+
+.about hr {
+  width: 150px;
+  border: 2px solid black;
+  margin-top: -7px;
+}
+
+.about p,
+h2 {
+  font-family: "Indie Flower";
+  font-size: 20px;
+}
