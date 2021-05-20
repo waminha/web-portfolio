@@ -1,4 +1,4 @@
-body {
+html {
   position: relative;
 }
 
@@ -24,10 +24,9 @@ body {
 }
 
 /* about */
-
 hr {
   width: 150px;
-  border: 2px solid black;
+  border: 2px solid #c3c3c3;
   margin-top: -7px;
 }
 
@@ -38,11 +37,36 @@ h2 {
 }
 
 .about .container {
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .about svg {
   margin-bottom: -20px;
 }
+/* contact */
+.contact {
+  margin-top: -10px;
+  min-height: 800px;
+}
 
-/* portfolio */
+.contact button {
+  margin-top: 20px;
+}
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(36, 31, 31);
+}
+
+footer p,
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Akaya Telivigala", cursive;
+  line-height: 50px;
+  font-size: 17px;
+}
