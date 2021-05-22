@@ -2,6 +2,10 @@ html {
   position: relative;
 }
 
+.container h2 {
+  text-shadow: 1px 1ppx 5px rgba(0, 0, 0, 0.5);
+}
+
 /* jumbotron */
 .jumbotron {
   background-image: url(image/bg.jpg);
@@ -25,11 +29,6 @@ html {
 }
 
 /* about */
-hr {
-  width: 150px;
-  border: 2px solid #c3c3c3;
-  margin-top: -7px;
-}
 
 .about p,
 h2 {
@@ -41,13 +40,38 @@ h2 {
   margin-top: -30px;
 }
 
-.about svg {
-  margin-bottom: -20px;
+.about {
+  min-height: 600px;
 }
+
+/* hobi */
+
+.card {
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: skyblue;
+  padding-bottom: 20px;
+}
+
+.card p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* portfolio*/
+.portfolio {
+  min-height: 650px;
+  margin-top: 30px;
+}
+
 /* contact */
 .contact {
   margin-top: -10px;
-  min-height: 800px;
+  min-height: 700px;
 }
 
 .contact .container .row input {
@@ -64,6 +88,7 @@ h2 {
 
 /* footer */
 footer {
+  padding: 10px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -76,7 +101,6 @@ a {
   text-decoration: none;
   color: white;
   font-family: "Akaya Telivigala", cursive;
-  line-height: 50px;
   font-size: 17px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
