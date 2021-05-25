@@ -86,6 +86,12 @@ h2 {
   margin-top: 20px;
 }
 
+.alert {
+  background-color: rgb(122, 160, 118);
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+  display: none;
+}
+
 /* footer */
 footer {
   padding: 10px;
