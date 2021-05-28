@@ -1,15 +1,15 @@
 html {
   position: relative;
 }
-
 .container h2 {
   text-shadow: 1px 1ppx 5px rgba(0, 0, 0, 0.5);
 }
 
 /* jumbotron */
 .jumbotron {
-  background-image: url(image/bg.jpg);
+  background-image: url(image/bg2.jpg);
   background-size: cover;
+  height: 450px;
 }
 
 .jumbotron img {
@@ -25,14 +25,26 @@ html {
 
 .jumbotron p {
   color: white;
-  font-family: "Indie Flower";
+  font-family: "Roboto Condensed";
+}
+.jumbotron ul li {
+  display: inline-block;
+}
+.jumbotron .sosialmedia img {
+  width: 50px;
+  border: none;
+  padding-right: 20px;
 }
 
 /* about */
 
-.about p,
 h2 {
-  font-family: "Indie Flower";
+  font-family: "Roboto Condensed";
+  font-size: 25px;
+}
+
+.about p {
+  font-family: "Roboto Condensed";
   font-size: 20px;
 }
 
@@ -40,26 +52,36 @@ h2 {
   margin-top: -30px;
 }
 
-.about {
-  min-height: 600px;
+/* hobi */
+
+.hobi {
+  background-color: #0f514b;
+  margin-top: -5px;
+  min-height: 270px;
 }
 
-/* hobi */
+.hobi h2 {
+  color: white;
+}
 
 .card {
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   padding: 5px;
   box-sizing: border-box;
-  background-color: skyblue;
-  padding-bottom: 20px;
+  background-color: rgb(255, 255, 255);
 }
 
 .card p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Condensed";
   font-size: 15px;
   padding: 5px;
   box-sizing: border-box;
+}
+
+h5 {
+  font-family: "Roboto Condensed";
+  font-size: 20px;
 }
 
 /* portfolio*/
@@ -86,12 +108,6 @@ h2 {
   margin-top: 20px;
 }
 
-.alert {
-  background-color: rgb(122, 160, 118);
-  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
-  display: none;
-}
-
 /* footer */
 footer {
   padding: 10px;
@@ -99,7 +115,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: rgba(94, 87, 87, 0.667);
+  background-color: #0f514b;
 }
 
 footer p,
